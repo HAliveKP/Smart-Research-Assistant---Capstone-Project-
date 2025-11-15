@@ -1,0 +1,93 @@
+================================================================================
+SMART RESEARCH ASSISTANT - CAPSTONE PROJECT
+================================================================================
+
+Starting research on: Artificial Intelligence in Healthcare
+--------------------------------------------------------------------------------
+[INFO] System: Created session 0808c480f418 for topic: Artificial Intelligence in Healthcare
+[DEBUG] MCPServer: Started connect
+[DEBUG] MCPServer: Completed connect in 0.10s
+[DEBUG] Orchestrator: Started orchestrate_research
+[INFO] Orchestrator: Starting research workflow for: Artificial Intelligence in Healthcare
+[INFO] Orchestrator: Step 1: Gathering information
+[DEBUG] Researcher: Started research
+[INFO] Researcher: Researching topic: Artificial Intelligence in Healthcare
+[DEBUG] WebSearchTool: Started search
+[DEBUG] WebSearchTool: Started search
+[DEBUG] WebSearchTool: Started search
+[DEBUG] WebSearchTool: Started search
+[DEBUG] WebSearchTool: Completed search in 0.50s
+[DEBUG] WebSearchTool: Completed search in 0.50s
+[DEBUG] WebSearchTool: Completed search in 0.50s
+[DEBUG] WebSearchTool: Completed search in 0.50s
+[DEBUG] Researcher: Completed research in 0.50s
+[INFO] Orchestrator: Step 2: Analyzing data
+[DEBUG] Analyzer: Started analysis
+[INFO] Analyzer: Analyzing 12 sources
+[DEBUG] DataAnalysisTool: Started sentiment_analysis
+[DEBUG] DataAnalysisTool: Started topic_extraction
+[DEBUG] DataAnalysisTool: Completed topic_extraction in 0.20s
+[DEBUG] DataAnalysisTool: Completed sentiment_analysis in 0.30s
+[DEBUG] Analyzer: Completed analysis in 0.30s
+[INFO] Orchestrator: Step 3: Generating report
+[DEBUG] Writer: Started write_report
+[INFO] Writer: Writing report on: Artificial Intelligence in Healthcare
+[DEBUG] Writer: Completed write_report in 0.50s
+[DEBUG] Orchestrator: Completed orchestrate_research in 1.30s
+[INFO] Evaluator: Research quality score: 0.67
+
+================================================================================
+RESEARCH RESULTS
+================================================================================
+
+Title: Research Report: Artificial Intelligence in Healthcare
+Summary: Comprehensive analysis of Artificial Intelligence in Healthcare based on 12 sources.
+
+Key Findings: AI, machine learning, neural networks, data science
+Quality Score: 1.20
+Generated: 2025-11-15T12:26:41.456071
+
+================================================================================
+EVALUATION METRICS
+================================================================================
+Overall Quality: 67.00%
+Completeness: 80.00%
+Relevance: 80.00%
+Accuracy: 85.00%
+
+================================================================================
+PERFORMANCE METRICS
+================================================================================
+Avg Execution Time: 0.47s
+Total API Calls: 4
+Error Rate: 0.00%
+Trace Count: 11
+
+================================================================================
+OBSERVABILITY REPORT (Last 10 Logs)
+================================================================================
+[DEBUG] DataAnalysisTool: Started topic_extraction
+[DEBUG] DataAnalysisTool: Completed topic_extraction in 0.20s
+[DEBUG] DataAnalysisTool: Completed sentiment_analysis in 0.30s
+[DEBUG] Analyzer: Completed analysis in 0.30s
+[INFO] Orchestrator: Step 3: Generating report
+[DEBUG] Writer: Started write_report
+[INFO] Writer: Writing report on: Artificial Intelligence in Healthcare
+[DEBUG] Writer: Completed write_report in 0.50s
+[DEBUG] Orchestrator: Completed orchestrate_research in 1.30s
+[INFO] Evaluator: Research quality score: 0.67
+
+================================================================================
+PROJECT REQUIREMENTS DEMONSTRATED:
+================================================================================
+ Multi-agent system (Orchestrator, Researcher, Analyzer, Writer)
+ Sequential agent execution (Research  Analyze  Write)
+ Parallel execution (Multiple search queries, analysis tasks)
+ Tools: Custom tools (DataAnalysisTool, WebSearchTool)
+ MCP integration (MCPServerConnection)
+ Sessions & State Management (InMemorySessionService)
+ Long-term Memory (MemoryBank)
+ Context Engineering (ContextCompactor)
+ Observability: Logging, Tracing, Metrics (ObservabilitySystem)
+ Agent Evaluation (AgentEvaluator)
+================================================================================
